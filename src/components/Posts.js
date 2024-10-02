@@ -56,7 +56,7 @@ const Posts = () => {
     addReaction(userId, postId, reactingUserId, reaction);
   };
   return (
-    <div>
+    <div className="App">
       <h1>Add a new Post</h1>
       <form onSubmit={onSub}>
         <label htmlFor="postTitle">Post Title</label>
