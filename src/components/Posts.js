@@ -90,11 +90,11 @@ const Posts = () => {
         <button type="submit">Save</button>
       </form>
       <h1>Posts</h1>
-      <div className="posts-list">
+      <div className="posts-container">
         {sortedposts.length > 0 &&
           sortedposts.map((item) => {
             return (
-              <div key={item.id} className="post-card">
+              <div key={item.id} className="post-card posts-list">
                 <h1>{item.postTitle}</h1>
                 <p>
                   by {item.author} about{" "}
