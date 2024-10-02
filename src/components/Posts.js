@@ -128,7 +128,7 @@ const Posts = () => {
                   })}
                 </div>
                 <Link to={`/post/view/${item.userId}/${item.id}`}>
-                  <button>view Post</button>
+                  <button className="button">view Post</button>
                 </Link>
               </div>
             );
