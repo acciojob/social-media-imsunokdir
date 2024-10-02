@@ -57,7 +57,6 @@ const Posts = () => {
   };
   return (
     <div className="App">
-      00
       <h1>Add a new Post</h1>
       <form onSubmit={onSub}>
         <label htmlFor="postTitle">Post Title</label>
@@ -91,11 +90,13 @@ const Posts = () => {
         <button type="submit">Save</button>
       </form>
       <h1>Posts</h1>
-      <div className="posts-container posts-list">
+      <div className="posts-list">
         {sortedposts.length > 0 &&
           sortedposts.map((item) => {
             return (
-              <div key={item.id} className="post-card posts-list">
+              <div key={item.id} className="post-card">
+                {" "}
+                {/* Ensure post-card is inside posts-list */}
                 <h1>{item.postTitle}</h1>
                 <p>
                   by {item.author} about{" "}
