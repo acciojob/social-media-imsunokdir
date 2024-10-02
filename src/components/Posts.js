@@ -119,6 +119,7 @@ const Posts = () => {
                             reaction
                           )
                         }
+                        className="button"
                       >
                         {reaction} {rectionCount}
                       </button>
