@@ -34,7 +34,7 @@ const Post = () => {
     updatePost(userId, postId, formData);
   };
   return (
-    <div className="post">
+    <div className="post posts-list">
       <h1>Edit Post</h1>
       <form onSubmit={handleSubmit}>
         <label htmlFor="postTitle">Post postTitle</label>

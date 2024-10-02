@@ -57,6 +57,7 @@ const Posts = () => {
   };
   return (
     <div className="App">
+      00
       <h1>Add a new Post</h1>
       <form onSubmit={onSub}>
         <label htmlFor="postTitle">Post Title</label>
