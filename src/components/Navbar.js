@@ -6,7 +6,7 @@ const Navbar = () => {
     <div>
       <h1>GenZ</h1>
       <div>
-        <Link to="/">
+        <Link to="/posts">
           <button>Posts</button>
         </Link>
         <Link to="/users">
