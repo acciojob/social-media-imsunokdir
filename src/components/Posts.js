@@ -90,7 +90,7 @@ const Posts = () => {
         <button type="submit">Save</button>
       </form>
       <h1>Posts</h1>
-      <div className="posts-container">
+      <div className="posts-container posts-list">
         {sortedposts.length > 0 &&
           sortedposts.map((item) => {
             return (
